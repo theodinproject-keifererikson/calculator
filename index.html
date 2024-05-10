@@ -5,49 +5,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculator</title>
+
   <link rel="stylesheet" href="style.css">
+
+  <script src="app.js" defer></script>
 </head>
 
 <body>
-  <h1>CALCULATOR</h1>
-
   <div id="calculator">
-    <div id="display-sub"></div>
     <div id="display-main"></div>
+    <div id="buttons">
+      <button class="mod" id="btn-clear" value="C">AC</button>
+      <button class="mod" id="btn-plus-minus" value="+/-">+/-</button>
+      <button class="mod" id="btn-percent" value="%">%</button>
+      <button class="op" id="btn-divide" value="/">/</button>
 
-    <div class="buttons">
-      <button class="num" id="btn-7" value="7">7</button>
+      <button class="num clicked" id="btn-7" value="7">7</button>
       <button class="num" id="btn-8" value="8">8</button>
       <button class="num" id="btn-9" value="9">9</button>
-      <button class="op" id="btn-divide" value="/">/</button>
-      <br>
+      <button class="op" id="btn-multiply" value="*">*</button>
+
       <button class="num" id="btn-4" value="4">4</button>
       <button class="num" id="btn-5" value="5">5</button>
       <button class="num" id="btn-6" value="6">6</button>
-      <button class="op" id="btn-multiply" value="*">*</button>
-      <br>
+      <button class="op" id="btn-subtract" value="-">-</button>
+
       <button class="num" id="btn-1" value="1">1</button>
       <button class="num" id="btn-2" value="2">2</button>
       <button class="num" id="btn-3" value="3">3</button>
-      <button class="op" id="btn-subtract" value="-">-</button>
-      <br>
-      <button class="num" id="btn-0" value="0">0</button>
-      <button id="btn-clear" value="C">C</button>
-      <button id="btn-equals" value="=">=</button>
       <button class="op" id="btn-add" value="+">+</button>
+
+      <button class="num" id="btn-0" value="0">0</button>
+      <button class="num" id="btn-decimal" value=".">.</button>
+      <button class="op" id="btn-equals" value="=">=</button>
     </div>
   </div>
 
-
-  <br />
-  <br />
-  <br />
-  <br />
-
-
-  <img src="/calc.jpg" alt="" srcset="">
-
 </body>
-<script src="app.js"></script>
 
 </html>
